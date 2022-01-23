@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  body {
+    font-family: 'Outfit', sans-serif;
+  }
+
   .Main {
     @apply w-10/12 max-w-3xl mx-auto;
   }
@@ -34,5 +40,19 @@
 
   button:hover {
     @apply opacity-80;
+  }
+}
+
+@layer utilities {
+  .light-gray {
+    color: hsl(212, 45%, 89%);
+  }
+
+  .dark-blue {
+    background-color: hsl(218, 44%, 22%);
+  }
+
+  .grayish-blue {
+    background-color: hsl(220, 15%, 55%);
   }
 }

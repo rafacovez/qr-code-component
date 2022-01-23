@@ -1,5 +1,5 @@
 .Modal {
-  @apply -mt-8 bg-white grid place-items-center p-5 text-center rounded-2xl max-w-xs shadow-lg;
+  @apply bg-white grid place-items-center p-5 my-8 text-center rounded-2xl max-w-xs shadow-lg;
 }
 
 .ImgWrapper {

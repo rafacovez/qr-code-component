@@ -11,7 +11,7 @@
   }
 
   .Main {
-    @apply min-h-screen flex justify-center items-center w-10/12 max-w-3xl mx-auto;
+    @apply min-h-screen grid place-items-center w-10/12 max-w-3xl mx-auto;
   }
 
   h1,

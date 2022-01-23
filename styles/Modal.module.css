@@ -1,0 +1,15 @@
+.Modal {
+  @apply bg-white grid place-items-center p-5 text-center rounded-2xl max-w-sm shadow-lg;
+}
+
+.ImgWrapper {
+  @apply grid overflow-hidden rounded-2xl mb-2;
+}
+
+.ModalHeading {
+  @apply my-2 text-2xl w-10/12;
+}
+
+.ModalPara {
+  @apply mt-2 mb-6 leading-normal text-gray-600 w-10/12;
+}

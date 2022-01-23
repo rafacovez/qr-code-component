@@ -5,11 +5,14 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="Main">
       <Head>
-        <title>NextJS, TypeScript and Tailwind CSS template</title>
+        <title>QR Code Component</title>
         <meta charSet="UTF-8" />
-        <meta name="description" content="NextJS app" />
-        <meta name="keywords" content="NextJS, TypeScript, Tailwind" />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <meta name="description" content="Frontend Mentor challenge" />
+        <meta
+          name="keywords"
+          content="NextJS, TypeScript, Tailwind, Challenge"
+        />
+        <link rel="shortcut icon" href="/favicon.png" />
       </Head>
       <Component {...pageProps} />
     </div>
